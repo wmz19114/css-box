@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Css盒子练习</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        .father {
+            width: 330px;
+            height: 228px;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 4px 4px 4px 4px #ccc;
+            margin: 100px auto;
+            padding: 15px;
+            background: url(images/渐变.jpg);
+        }
+        
+        .father h2 {
+            font-size: 18px;
+            padding: 5px 0px;
+            border-bottom: darkolivegreen solid 2px;
+            margin-bottom: 10px;
+        }
+        
+        li {
+            list-style: none;
+        }
+        
+        .father ul li {
+            height: 30px;
+            line-height: 30px;
+            border-bottom: 1px dashed #ccc;
+            /* list-style-image: url(images/蓝色箭头25.png); */
+            background: url(images/蓝色箭头25.png) no-repeat 5px center;
+            padding-left: 25px;
+        }
+        
+        .father ul li a {
+            color: #333;
+            font-size: 12px;
+            text-decoration: none;
+            padding: 0 8px;
+        }
+        
+        .father ul li a:hover {
+            text-decoration: underline;
+            border-radius: 3px;
+            box-shadow: 0 4px 4px 2px rgba(0, 0, 0, .3);
+            padding-left: 9px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="father">
+        <h2>
+            最新文章/New Articles
+        </h2>
+        <ul>
+            <li><a href="http://www.baidu.com">北京招聘平面设计</a></li>
+            <li><a href="http://www.baidu.com">体验JavaScript的魅力</a></li>
+            <li><a href="http://www.baidu.com">jQuery时代来临</a></li>
+            <li><a href="http://www.baidu.com">Web设计师的梦想</a></li>
+            <li><a href="http://www.baidu.com">什么是异步编程</a></li>
+        </ul>
+    </div>
+
+</body>
+
+</html>
